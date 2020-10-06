@@ -5,6 +5,7 @@
  * @param {number} target
  * @return {number[]}
  */
+
 var twoSum = function (nums, target) {
 	// create a map object
 	let numberIndex = new Map();
@@ -31,5 +32,3 @@ var twoSum = function (nums, target) {
 
 	return result;
 };
-
-twoSum([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 30);
