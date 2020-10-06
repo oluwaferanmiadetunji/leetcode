@@ -25,6 +25,7 @@ var twoSum = function (nums, target) {
 			// return result
 			return result;
 		}
+
 		numberIndex.set(num, i);
 	}
 
